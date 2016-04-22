@@ -1,0 +1,1 @@
+var nanoFetch=function(){"use strict";var n=function(n,r){var e=r.responseType;var t=r.method;return new Promise(function(r,o){var s=new XMLHttpRequest;s.open(t||"GET",n,true);s.onerror=function(n){o(new Error(n))};s.onload=function(){if(s.status>=200&&s.status<400){return r(s.response)}s.onerror(s.status)};s.responseType=e||"json";s.send()})};return n}();
