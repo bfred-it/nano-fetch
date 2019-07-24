@@ -1,10 +1,10 @@
-# nano-fetch 
+# nano-fetch
 
 > A tiny window.fetch-like promise-based AJAX implementation
 
 It's based on `XMLHttpRequest` so refer to [its documentation](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) for the expected output. It defaults to JSON output and GET requests.
 
-[![gzipped size](https://badges.herokuapp.com/size/github/bfred-it/nano-fetch/master/dist/nano-fetch.browser.js?gzip=true&label=gzipped%20size)](#readme)
+[![gzipped size](https://badges.herokuapp.com/size/github/fregante/nano-fetch/master/dist/nano-fetch.browser.js?gzip=true&label=gzipped%20size)](#readme)
 
 ## Usage
 
@@ -52,4 +52,4 @@ None
 
 ## License
 
-MIT © [Federico Brigante](http://twitter.com/bfred_it)
+MIT © [Federico Brigante](https://bfred.it)
